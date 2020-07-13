@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: greenyellow;
+    font-family:  'Bangers', cursive;
+}
+main{
+    width: 70%;
+    margin: auto;
+    background-color: khaki;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    box-shadow: 0 0 10px 1px gray;
+} 
+
+.photo{
+    height:calc(20vw - 10px / 16 * 9);
+    width:calc(50% - 40px);
+    background-color:blue;
+    margin:10px;
+    background-position: center;
+    background-size: cover ;
+    transition:0.2s ;
+    
+}   
+.photo:hover{
+    transform: rotate(3deg)scale(1.2);
+    box-shadow: 0 0 10px 1px lightslategray;
+}  
+
+h1{
+    text-align: center;
+    width:100%;
+    font-weight: 48px;
+    margin: 20px;
+}
+
+
+.img1{
+    background-image: url(../img/img1.jpg);
+}
+.img2{
+    background-image: url(../img/img2.jpg);
+}
+.img3{
+    background-image: url(../img/img3.jpg);
+}
+.img4{
+    background-image: url(../img/img4.jpg);
+}
+.img5{
+    background-image: url(../img/img5.jpg);
+}
+.img6{
+    background-image: url(../img/img6.jpg);
+}
+.img7{
+    background-image: url(../img/img7.jpg);
+}
+.img8{
+
+     background-image: url(../img/img8.jpg);
+}
+.img9{
+    background-image: url(../img/img9.jpg);
+}
+.img12{
+    background-image: url(../img/img12.jpg);
+}
+
+.img10{
+    background-image: url(../img/img10.jpg);
+}
+
+
+.img11{
+    background-image: url(../img/img11.jpg);
+}
+
+.img13{
+    background-image: url(../img/img13.jpg);
+}
+.img14{
+    background-image: url(../img/img14.jpg);
+}
