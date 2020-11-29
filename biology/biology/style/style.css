@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family:RobotoR;
+    src:url(../fonts/Roboto-Regular.ttf);
+}
+html,body,main {
+    height: 100%;
+    
+    font-family: 'Suwannaphum', cursive;
+    
+}
+.text{
+    text-align: center;
+    padding-top: 50px;
+    
+
+
+}
+.text1{
+    text-align: center;
+    margin-top: 50px;
+}
+.img{
+    align-items: center;  display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    margin-left: 100px;
+    
+    
+}
