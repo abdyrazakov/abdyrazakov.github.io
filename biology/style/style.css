@@ -14,22 +14,23 @@ html,body,main {
     
 }
 .text{
-    text-align: center;
+    text-align: end;
     padding-top: 50px;
-    
+    padding-right: 200px;
 
 
 }
 .text1{
-    text-align: center;
+    text-align: end;
     margin-top: 50px;
+    padding-right: 200px;
 }
 .img{
-    align-items: center;  display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 50px;
-    margin-left: 100px;
+    
+  
+    justify-content: end;
+    padding-left: 50%;
+    
     
     
 }
