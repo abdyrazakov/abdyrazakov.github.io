@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family:RobotoR;
+    src:url(../fonts/Roboto-Regular.ttf);
+}
+html, body, main{
+    height: 100%;
+    
+    font-family: 'Suwannaphum', cursive;
+
+}
+.f{
+    height: 100%;
+    background-image: url(../img/img1.jpg);
+    background-position:center;
+    background-size:cover ;
+}
+.f p{
+    color: rgb(206, 240, 15)
+}
+.Myclass{
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 20px;
+    
+}
+.text-container{
+    width: 40%;
+    margin-left:15% ;
+    margin-top:15%;
+}
+.first-line{
+    font-size: 25px;
+    text-transform: uppercase; 
+    opacity: 0.4;
+    letter-spacing: 1px;
+    line-height: 1;
+    font-weight: bold;
+}
+.second-line{
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    line-height: 1;
+}
+.third-line{
+    font-size: 15px;
+    opacity: 0.7;
+}
+.s{
+    height: 100%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.school-cont{
+    max-width: 1000px;
+    width: 60%;
+}
+.img-cont{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px gray;
+}
+.img1{
+    width: 55%;
+}
+.wrapper{
+    margin-left: 20px;
+
+}
+
+
+.img2{
+    margin-bottom: 20px;
+}
+.text-school{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.school-header{
+    font-size: 40px;
+    margin-right: 50px;
+    font-weight: 2px;
+    line-height: 1px;
+}
+.school-p{
+    font-size: 15px;
+}
+
+
+.last-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:300px;
+    background-image: url(../img/img9.webp);
+    background-position:center;
+    background-size:cover;
+    padding: 0 25%;
+    color: white;
+}
+.last-header{
+    font-size:20px;
+    border:1px solid white;
+    padding: 10px 20px;
+}
+.last-p{
+    margin-top: 30px;
+    font-size:15px;
+    text-align:center;
+    line-height:1.7;
+    letter-spacing:1px;
+    opacity:0.8
+}
